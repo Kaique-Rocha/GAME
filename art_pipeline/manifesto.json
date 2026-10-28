@@ -1,0 +1,8054 @@
+{
+  "total": 804,
+  "categorias": {
+    "efeitos_ui": 46,
+    "criaturas": 449,
+    "estruturas": 81,
+    "itens": 99,
+    "terrenos": 129
+  },
+  "resolucao": 32,
+  "atlas_largura": 512,
+  "sprites": [
+    {
+      "id": "furnace_icon",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/furnace_icon.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "spell_speed_icon",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/spell_speed_icon.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "multi_weapon_icon",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/multi_weapon_icon.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 64,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "digging_icon",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/digging_icon.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 96,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "damage_icon",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/damage_icon.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 128,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "spell_damage_icon",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/spell_damage_icon.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 160,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "fire_damage_icon",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/fire_damage_icon.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 192,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "acid_damage_icon",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/acid_damage_icon.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 224,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "cold_damage_icon",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/cold_damage_icon.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 256,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "ranged_damage_icon",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/ranged_damage_icon.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 288,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "defense_icon",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/defense_icon.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 320,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "parry_icon",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/parry_icon.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 352,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "divinity_icon",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/divinity_icon.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 384,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "keeper1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/keeper1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 416,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "keeper2",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/keeper2.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 448,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "keeper3",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/keeper3.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 480,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "keeper4",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/keeper4.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 0,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "keeper_f1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/keeper_f1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 32,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "keeper_f2",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/keeper_f2.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 64,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "keeper_f3",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/keeper_f3.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 96,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "keeper_f4",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/keeper_f4.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 128,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "keeper_knight1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/keeper_knight1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 160,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "keeper_knight2",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/keeper_knight2.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 192,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "keeper_knight3",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/keeper_knight3.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 224,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "keeper_knight4",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/keeper_knight4.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 256,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "keeper_knight_f1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/keeper_knight_f1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 288,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "keeper_knight_f2",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/keeper_knight_f2.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 320,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "keeper_knight_f3",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/keeper_knight_f3.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 352,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "keeper_knight_f4",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/keeper_knight_f4.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 384,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "bishop1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/bishop1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 416,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "bishop2",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/bishop2.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 448,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "bishop3",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/bishop3.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 480,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "bishop4",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/bishop4.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 0,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "bishop5",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/bishop5.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 32,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "mother_superior1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/mother_superior1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 64,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "mother_superior2",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/mother_superior2.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 96,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "mother_superior3",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/mother_superior3.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 128,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "mother_superior4",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/mother_superior4.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 160,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "mother_superior5",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/mother_superior5.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 192,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "acolyte",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/acolyte.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 224,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "acolyte_f",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/acolyte_f.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 256,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "armed_brother",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/armed_brother.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 288,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "nun_mage",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/nun_mage.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 320,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "squire",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/squire.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 352,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "squire_f",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/squire_f.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 384,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "demon_dweller",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/demon_dweller.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 416,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "demon_lord",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/demon_lord.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 448,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "vampire_warrior",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/vampire_warrior.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 480,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "vampire_lord",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/vampire_lord.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 0,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "vampire_brute",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/vampire_brute.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 32,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "devil",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/devil.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 64,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "satan",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/satan.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 96,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "tengu",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/tengu.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 128,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "shaitan",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/shaitan.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 160,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "banshee",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/banshee.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 192,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "vetala",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/vetala.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 224,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "leyak",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/leyak.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 256,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "baku",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/baku.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 288,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "rakshasa",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/rakshasa.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 320,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "ghoul",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/ghoul.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 352,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "suanggi",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/suanggi.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 384,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "adoxie_foot_left",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/adoxie_foot_left.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 416,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "adoxie_foot_right",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/adoxie_foot_right.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 448,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "adoxie_hand_right",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/adoxie_hand_right.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 480,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "adoxie_hand_left",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/adoxie_hand_left.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 0,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "adoxie_head",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/adoxie_head.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 32,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "adoxie_eye",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/adoxie_eye.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 64,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "adoxie_priest",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/adoxie_priest.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 96,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "gargoyle",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/gargoyle.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 128,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "scarecrow",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/scarecrow.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 160,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "gargoyle_statue",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/gargoyle_statue.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 192,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "necromancer1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/necromancer1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 224,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "necromancer2",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/necromancer2.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 256,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "necromancer3",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/necromancer3.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 288,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "necromancer4",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/necromancer4.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 320,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "necromancer_f1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/necromancer_f1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 352,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "necromancer_f2",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/necromancer_f2.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 384,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "necromancer_f3",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/necromancer_f3.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 416,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "necromancer_f4",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/necromancer_f4.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 448,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "abomination",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/abomination.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 480,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "adoxie_statue",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/adoxie_statue.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 0,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "adoxie_foot_statue_left",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/adoxie_foot_statue_left.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 32,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "adoxie_foot_statue_right",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/adoxie_foot_statue_right.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 64,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "unicorn",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/unicorn.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 96,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "elf",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/elf.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 128,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "elf_woman",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/elf_woman.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 160,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "elf_archer",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/elf_archer.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 192,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "elf_child",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/elf_child.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 224,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "elf_lord",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/elf_lord.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 256,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dark_elf",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/dark_elf.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 288,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dark_elf_woman",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/dark_elf_woman.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 320,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dark_elf_warrior",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/dark_elf_warrior.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 352,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dark_elf_child",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/dark_elf_child.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 384,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dark_elf_lord",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/dark_elf_lord.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 416,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "driad",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/driad.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 448,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "kobold",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/kobold.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 480,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "lizardman",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/lizardman.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 0,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "lizardlord",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/lizardlord.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 32,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "imp",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/imp.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 64,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "prisoner",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/prisoner.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 96,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "chicken",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/chicken.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 128,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "gnome",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/gnome.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 160,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "gnome_boss",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/gnome_boss.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 192,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dwarf",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/dwarf.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 224,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dwarf_player",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/dwarf_player.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 256,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dwarf_mage",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/dwarf_mage.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 288,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dwarf_crossbowman",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/dwarf_crossbowman.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 320,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dwarf_fighter",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/dwarf_fighter.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 352,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dwarf_blacksmith",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/dwarf_blacksmith.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 384,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dwarf_mage_f",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/dwarf_mage_f.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 416,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dwarf_crossbowman_f",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/dwarf_crossbowman_f.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 448,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dwarf_fighter_f",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/dwarf_fighter_f.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 480,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dwarf_blacksmith_f",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/dwarf_blacksmith_f.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 0,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dwarf_baron",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/dwarf_baron.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 32,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dwarf_female",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/dwarf_female.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 64,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "shopkeeper",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/shopkeeper.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 96,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "floor",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/floor.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 128,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "roof",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/roof.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 160,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "floor_red",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/floor_red.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 192,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "bridge",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/bridge.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 224,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "bridge_stone",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/bridge_stone.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 256,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "keeper_floor",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/keeper_floor.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 288,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "wood_floor1",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/wood_floor1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 320,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "wood_floor2",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/wood_floor2.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 352,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "wood_floor3",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/wood_floor3.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 384,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "wood_floor4",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/wood_floor4.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 416,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "wood_floor5",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/wood_floor5.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 448,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "stone_floor1",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/stone_floor1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 480,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "stone_floor2",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/stone_floor2.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 0,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "stone_floor3",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/stone_floor3.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 32,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "stone_floor4",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/stone_floor4.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 64,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "stone_floor5",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/stone_floor5.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 96,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "carpet_floor1",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/carpet_floor1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 128,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "carpet_floor2",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/carpet_floor2.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 160,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "carpet_floor3",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/carpet_floor3.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 192,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "carpet_floor4",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/carpet_floor4.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 224,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "carpet_floor5",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/carpet_floor5.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 256,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "floor_speed",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/floor_speed.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 288,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "floor_blind",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/floor_blind.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 320,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "floor_invi",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/floor_invi.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 352,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "floor_regen",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/floor_regen.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 384,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "floor_peace",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/floor_peace.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 416,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "totem",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/totem.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 448,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "fallen_tree",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/fallen_tree.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 480,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "tree_trunk",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/tree_trunk.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 0,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "swish_wheat",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/swish_wheat.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 32,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "stones",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/stones.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 64,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "termite_mound",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/termite_mound.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 96,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "flower1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/flower1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 128,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "flower2",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/flower2.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 160,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "flower3",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/flower3.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 192,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "down_staircase",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/down_staircase.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 224,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "up_staircase",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/up_staircase.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 256,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "down_staircase_carpet",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/down_staircase_carpet.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 288,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "up_staircase_carpet",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/up_staircase_carpet.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 320,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "down_staircase_castle",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/down_staircase_castle.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 352,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "up_staircase_castle",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/up_staircase_castle.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 384,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "down_staircase_rock",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/down_staircase_rock.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 416,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "up_staircase_rock",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/up_staircase_rock.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 448,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_unknown",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/map_unknown.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 480,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_fow",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/map_fow.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 0,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_grass1",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_grass1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 32,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_grass2",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_grass2.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 64,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_grass3",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_grass3.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 96,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_grass4",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_grass4.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 128,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_snow1",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_snow1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 160,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_snow2",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_snow2.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 192,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_snow3",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_snow3.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 224,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_snow4",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_snow4.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 256,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_water1",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_water1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 288,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_water2",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_water2.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 320,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_water3",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_water3.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 352,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_water5",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_water5.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 384,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_sand1",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_sand1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 416,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_sand2",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_sand2.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 448,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_sand3",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_sand3.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 480,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_sand4",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_sand4.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 0,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_swamp1",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_swamp1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 32,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_swamp2",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_swamp2.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 64,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_swamp3",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_swamp3.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 96,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_swamp4",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_swamp4.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 128,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_pond1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/map_pond1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 160,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_tree1",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_tree1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 192,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_tree2",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_tree2.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 224,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_tree3",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_tree3.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 256,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_mountains1",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_mountains1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 288,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_mountains2",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_mountains2.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 320,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_mountains3",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_mountains3.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 352,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_mountains4",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_mountains4.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 384,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_mountains5",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_mountains5.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 416,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_mountains_large",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_mountains_large.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 448,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_mountains_large2",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_mountains_large2.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 480,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_mountains_large3",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_mountains_large3.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 0,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_mountains_large4",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_mountains_large4.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 32,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_mountains_snow1",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_mountains_snow1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 64,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_mountains_snow2",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_mountains_snow2.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 96,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_mountains_snow3",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_mountains_snow3.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 128,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_mountains_snow4",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_mountains_snow4.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 160,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_mountains_snow5",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_mountains_snow5.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 192,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_mountains_bg1",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_mountains_bg1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 224,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_house1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/map_house1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 256,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_house2",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/map_house2.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 288,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_house_elf",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/map_house_elf.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 320,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_shop1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/map_shop1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 352,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_blacksmith1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/map_blacksmith1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 384,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_stable1",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/map_stable1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 416,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_castle1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/map_castle1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 448,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_guard_house1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/map_guard_house1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 480,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_castle_snow1",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_castle_snow1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 0,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_thieves",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/map_thieves.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 32,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_warriors",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/map_warriors.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 64,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_house_snow1",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/map_house_snow1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 96,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_dungeon1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/map_dungeon1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 128,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_dungeon2",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/map_dungeon2.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 160,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_dwarves",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/map_dwarves.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 192,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_ants",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/map_ants.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 224,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_ents",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/map_ents.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 256,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_hydra",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/map_hydra.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 288,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_dragon",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/map_dragon.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 320,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_green_dragon",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/map_green_dragon.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 352,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_adoxie",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/map_adoxie.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 384,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_white_dragon",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/map_white_dragon.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 416,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_tower1",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/map_tower1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 448,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_grave1",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/map_grave1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 480,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_base1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/map_base1.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 0,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_highlight",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/map_highlight.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 32,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "map_cloud",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/map_cloud.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 64,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "waternesw",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/waternesw.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 96,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dungeon_entrance",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/dungeon_entrance.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 128,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "unknown_monster",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/unknown_monster.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 160,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "destroy_button",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/destroy_button.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 192,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "empty",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/empty.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 224,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "black",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/black.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 256,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dig_mark",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/dig_mark.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 288,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dig_mark2",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/dig_mark2.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 320,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "tile_below",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/tile_below.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 352,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "guard_zone",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/guard_zone.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 384,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "phylactery_tether",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/phylactery_tether.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 416,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "forbid_zone",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/forbid_zone.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 448,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "goblin_shaman",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/goblin_shaman.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 480,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "harpy",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/harpy.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 0,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "bandit",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/bandit.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 32,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "doppleganger",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/doppleganger.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 64,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "ice_demon",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/ice_demon.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 96,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "succubus",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/succubus.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 128,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "ghost",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/ghost.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 160,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "wraith",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/wraith.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 192,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "shapeshifter",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/shapeshifter.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 224,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "spirit",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/spirit.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 256,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "galeam",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/galeam.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 288,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "cherub",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/cherub.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 320,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "djinn",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/djinn.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 352,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "naga",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/naga.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 384,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "kirin",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/kirin.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 416,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "red_dragon",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/red_dragon.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 448,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "bone_dragon",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/bone_dragon.png",
+      "atlas": "atlas/atlas_01.png",
+      "x": 480,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "balrog",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/balrog.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "balrogs_whip",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/balrogs_whip.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "cyclops",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/cyclops.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 64,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "yeti",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/yeti.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 96,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "minotaur",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/minotaur.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 128,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "soft_monster",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/soft_monster.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 160,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "hydra",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/hydra.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 192,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "shelob",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/shelob.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 224,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "witch",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/witch.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 256,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "witch_boss1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/witch_boss1.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 288,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "witch_boss2",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/witch_boss2.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 320,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "witch_boss3",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/witch_boss3.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 352,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "witch_boss4",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/witch_boss4.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 384,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "witch_boss5",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/witch_boss5.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 416,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "witch_girl",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/witch_girl.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 448,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "night_hag",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/night_hag.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 480,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "strix",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/strix.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 0,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "haunted_tree",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/haunted_tree.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 32,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "haunted_tree2",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/haunted_tree2.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 64,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "haunted_tree3",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/haunted_tree3.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 96,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "haunted_tree4",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/haunted_tree4.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 128,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "haunted_tree5",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/haunted_tree5.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 160,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "haunted_tree6",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/haunted_tree6.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 192,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "haunted_tree7",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/haunted_tree7.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 224,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "haunted_tree8",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/haunted_tree8.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 256,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "haunted_effigy",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/haunted_effigy.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 288,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "haunted_effigy2",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/haunted_effigy2.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 320,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "haunted_effigy3",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/haunted_effigy3.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 352,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "witchman",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/witchman.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 384,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "knight",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/knight.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 416,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "jester",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/jester.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 448,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "priest",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/priest.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 480,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "cleric",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/cleric.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 0,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "teuton",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/teuton.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 32,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "teuton_boss",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/teuton_boss.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 64,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "templar",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/templar.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 96,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "artisan",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/artisan.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 128,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "friar",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/friar.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 160,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "black_market_guard",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/black_market_guard.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 192,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "warrior",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/warrior.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 224,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "shaman",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/shaman.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 256,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "thief",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/thief.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 288,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "thief_leader",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/thief_leader.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 320,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "sorcerer",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/sorcerer.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 352,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "flying_carpet",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/flying_carpet.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 384,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "duke1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/duke1.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 416,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "duke2",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/duke2.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 448,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "duke3",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/duke3.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 480,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "duke4",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/duke4.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 0,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "duke_f1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/duke_f1.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 32,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "duke_f2",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/duke_f2.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 64,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "duke_f3",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/duke_f3.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 96,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "duke_f4",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/duke_f4.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 128,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "archer",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/archer.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 160,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "peasant",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/peasant.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 192,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "peasant_woman",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/peasant_woman.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 224,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "peasant_woman2",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/peasant_woman2.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 256,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "peasant_woman3",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/peasant_woman3.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 288,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "prostitute",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/prostitute.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 320,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "gigolo",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/gigolo.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 352,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "child",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/child.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 384,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "eskimo",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/eskimo.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 416,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "eskimo_woman",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/eskimo_woman.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 448,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "eskimo_child",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/eskimo_child.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 480,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "native1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/native1.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 0,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "native2",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/native2.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 32,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "native3",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/native3.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 64,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "nomad",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/nomad.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 96,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "nomad_woman",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/nomad_woman.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 128,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "nomad_child",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/nomad_child.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 160,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "clay_golem",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/clay_golem.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 192,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "stone_golem",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/stone_golem.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 224,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "iron_golem",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/iron_golem.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 256,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "lava_golem",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/lava_golem.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 288,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "ada_golem",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/ada_golem.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 320,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "automaton",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/automaton.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 352,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "automaton_worker",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/automaton_worker.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 384,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "automaton_corpus",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/automaton_corpus.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 416,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "helicopter",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/helicopter.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 448,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "automaton_light",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/automaton_light.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 480,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "automaton_heavy",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/automaton_heavy.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 0,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "automaton_head",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/automaton_head.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 32,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "automaton_fire",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/automaton_fire.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 64,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "automaton_oil",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/automaton_oil.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 96,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "automaton_acid",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/automaton_acid.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 128,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "automaton_spell",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/automaton_spell.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 160,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "automaton_arrow",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/automaton_arrow.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 192,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "automaton_legs",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/automaton_legs.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 224,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "automaton_arms",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/automaton_arms.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 256,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "automaton_repair",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/automaton_repair.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 288,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "automaton_drill",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/automaton_drill.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 320,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "automaton_crafting",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/automaton_crafting.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 352,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "kaboom_head",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/kaboom_head.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 384,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "installed_kaboom_head",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/installed_kaboom_head.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 416,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "installed_head",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/installed_head.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 448,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "installed_fire",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/installed_fire.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 480,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "installed_oil",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/installed_oil.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 0,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "installed_acid",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/installed_acid.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 32,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "installed_spell",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/installed_spell.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 64,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "installed_arrow",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/installed_arrow.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 96,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "installed_legs",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/installed_legs.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 128,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "installed_arms",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/installed_arms.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 160,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "installed_repair",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/installed_repair.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 192,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "installed_drill",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/installed_drill.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 224,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "installed_crafting",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/installed_crafting.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 256,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "elementalist",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/elementalist.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 288,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "air_elemental",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/air_elemental.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 320,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "fire_elemental",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/fire_elemental.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 352,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "water_elemental",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/water_elemental.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 384,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "earth_elemental",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/earth_elemental.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 416,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "ent",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/ent.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 448,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "angel",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/angel.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 480,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "zombie",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/zombie.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 0,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "zombie_artisan",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/zombie_artisan.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 32,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "zombie_mage",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/zombie_mage.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 64,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "skeleton_warrior",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/skeleton_warrior.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 96,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "skeleton_archer",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/skeleton_archer.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 128,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "skeletal_abomination",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/skeletal_abomination.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 160,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "slasher",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/slasher.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 192,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "juggernaut",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/juggernaut.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 224,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "mummy",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/mummy.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 256,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "jackal",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/jackal.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 288,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "deer",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/deer.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 320,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "horse",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/horse.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 352,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "warhorse",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/warhorse.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 384,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "camel",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/camel.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 416,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "cow",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/cow.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 448,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "pig",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/pig.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 480,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "donkey",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/donkey.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 0,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "goat",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/goat.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 32,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "boar",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/boar.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 64,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "fox",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/fox.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 96,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "polar_fox",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/polar_fox.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 128,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "kangaroo",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/kangaroo.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 160,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "wolf",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/wolf.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 192,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "skeleton_wolf",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/skeleton_wolf.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 224,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "feral_child",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/feral_child.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 256,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "werewolf",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/werewolf.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 288,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dog",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/dog.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 320,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "husky",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/husky.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 352,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "snowman",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/snowman.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 384,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "kraken_head",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/kraken_head.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 416,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "kraken_land",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/kraken_land.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 448,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "kraken_water",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/kraken_water.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 480,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "death",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/death.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 0,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "bear",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/bear.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 32,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "polar_bear",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/polar_bear.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 64,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "bat",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/bat.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 96,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "goblin_artificer",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/goblin_artificer.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 128,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "goblin_keeper1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/goblin_keeper1.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 160,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "goblin_keeper2",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/goblin_keeper2.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 192,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "goblin_keeper3",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/goblin_keeper3.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 224,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "goblin_keeper4",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/goblin_keeper4.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 256,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "goblin_guard",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/goblin_guard.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 288,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "goblin_kaboomer",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/goblin_kaboomer.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 320,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "troll",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/troll.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 352,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "goblin_archer",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/goblin_archer.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 384,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "goblin_wizard",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/goblin_wizard.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 416,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "goblin_warrior",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/goblin_warrior.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 448,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "goblin_priest",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/goblin_priest.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 480,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "goblin_matron",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/goblin_matron.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 0,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "goblin_chickenmancer",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/goblin_chickenmancer.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 32,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "rat",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/rat.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 64,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "black_rat",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/black_rat.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 96,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "rat_soldier",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/rat_soldier.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 128,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "rat_lady",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/rat_lady.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 160,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "rat_king",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/rat_king.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 192,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "spider",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/spider.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 224,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "fly",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/fly.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 256,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "ant_worker",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/ant_worker.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 288,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "ant_soldier",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/ant_soldier.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 320,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "ant_queen",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/ant_queen.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 352,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "snake",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/snake.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 384,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "lizard",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/lizard.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 416,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "vulture",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/vulture.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 448,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "raven",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/raven.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 480,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "body_part",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/body_part.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 0,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "bone",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/bone.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 32,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "frozen_remains",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/frozen_remains.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 64,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dig_icon",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/dig_icon.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 96,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "fill_pit_icon",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/fill_pit_icon.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 128,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "sword",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/sword.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 160,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "sword_v",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/sword_v.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 192,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "infernite_sword",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/infernite_sword.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 224,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "infernite_sword_v",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/infernite_sword_v.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 256,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "infernite_battle_axe",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/infernite_battle_axe.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 288,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "infernite_battle_axe_v",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/infernite_battle_axe_v.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 320,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "infernite_war_hammer",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/infernite_war_hammer.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 352,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "infernite_war_hammer_v",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/infernite_war_hammer_v.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 384,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "infernite_trident",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/infernite_trident.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 416,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "infernite_trident_v",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/infernite_trident_v.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 448,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "spear_v",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/spear_v.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 480,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "spear",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/spear.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 0,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "special_sword",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/special_sword.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 32,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "knife",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/knife.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 64,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "knife_v",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/knife_v.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 96,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "war_hammer",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/war_hammer.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 128,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "war_hammer_v",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/war_hammer_v.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 160,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "special_war_hammer",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/special_war_hammer.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 192,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "battle_axe_v",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/battle_axe_v.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 224,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "battle_axe",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/battle_axe.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 256,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "special_battle_axe",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/special_battle_axe.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 288,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "sceptre",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/sceptre.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 320,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "sceptre_v",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/sceptre_v.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 352,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "crozier_wood",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/crozier_wood.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 384,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "crozier_wood_v",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/crozier_wood_v.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 416,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "crozier_iron",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/crozier_iron.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 448,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "crozier_iron_v",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/crozier_iron_v.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 480,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "crozier_adoxium",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/crozier_adoxium.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 0,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "crozier_adoxium_v",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/crozier_adoxium_v.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 32,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "bow",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/bow.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 64,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "archwood_bow",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/archwood_bow.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 96,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "elven_bow",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/elven_bow.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 128,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "crossbow",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/crossbow.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 160,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "archwood_crossbow",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/archwood_crossbow.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 192,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "arrow",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/arrow.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 224,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "wooden_staff",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/wooden_staff.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 256,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "wooden_staff_v",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/wooden_staff_v.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 288,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "archwood_staff",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/archwood_staff.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 320,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "archwood_staff_v",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/archwood_staff_v.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 352,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "adoxium_staff",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/adoxium_staff.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 384,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "adoxium_staff_v",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/adoxium_staff_v.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 416,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "elven_staff",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/elven_staff.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 448,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "elven_staff_v",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/elven_staff_v.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 480,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "force_bolt",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/force_bolt.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 0,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "fireball",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/fireball.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 32,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "air_blast",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/air_blast.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 64,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "stun_ray",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/stun_ray.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 96,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "club",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/club.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 128,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "club_v",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/club_v.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 160,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "heavy_club",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/heavy_club.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 192,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "heavy_club_v",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/heavy_club_v.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 224,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "scroll",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/scroll.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 256,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "amulet1",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/amulet1.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 288,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "amulet2",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/amulet2.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 320,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "amulet3",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/amulet3.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 352,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "amulet4",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/amulet4.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 384,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "amulet5",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/amulet5.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 416,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "amulet6",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/amulet6.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 448,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "ring",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/ring.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 480,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "devotional_medal",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/devotional_medal.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 0,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "gold_ring",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/gold_ring.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 32,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "adoxie_ring",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/adoxie_ring.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 64,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "book",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/book.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 96,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "adoxie_book",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/adoxie_book.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 128,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "hand_torch",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/hand_torch.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 160,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "first_aid",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/first_aid.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 192,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "lamp",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/lamp.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 224,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "trap_item",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/trap_item.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 256,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "potion1",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/potion1.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 288,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "potion2",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/potion2.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 320,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "potion3",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/potion3.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 352,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "potion4",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/potion4.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 384,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "glyph",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/glyph.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 416,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dragon_scales",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/dragon_scales.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 448,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "devil_hooves",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/devil_hooves.png",
+      "atlas": "atlas/atlas_02.png",
+      "x": 480,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "devil_horns",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/devil_horns.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "nuts",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/nuts.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "brain",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/brain.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 64,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "tongue",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/tongue.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 96,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "archwood",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/archwood.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 128,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "key",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/key.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 160,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "tile_gas",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/tile_gas.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 192,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "black_market_key",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/black_market_key.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 224,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "key_highlight",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/key_highlight.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 256,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "treasurechest",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/treasurechest.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 288,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "treasurechest_empty",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/treasurechest_empty.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 320,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "automaton_storage",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/automaton_storage.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 352,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "automaton_storage_empty",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/automaton_storage_empty.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 384,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "jewelry_storage",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/jewelry_storage.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 416,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "jewelry_storage_empty",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/jewelry_storage_empty.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 448,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "prayer_book_storage",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/prayer_book_storage.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 480,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "prayer_book_storage_empty",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/prayer_book_storage_empty.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 0,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "armor_rack",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/armor_rack.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 32,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "armor_rack_empty",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/armor_rack_empty.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 64,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "weapon_rack",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/weapon_rack.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 96,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "weapon_rack_empty",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/weapon_rack_empty.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 128,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "bow_rack",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/bow_rack.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 160,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "bow_rack_empty",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/bow_rack_empty.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 192,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "potion_storage",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/potion_storage.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 224,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "potion_storage_empty",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/potion_storage_empty.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 256,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "scroll_storage",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/scroll_storage.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 288,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "scroll_storage_empty",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/scroll_storage_empty.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 320,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "coffin1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/coffin1.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 352,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "coffin2",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/coffin2.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 384,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "coffin3",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/coffin3.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 416,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "loot_coffin",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/loot_coffin.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 448,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "opened_coffin",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/opened_coffin.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 480,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "trap",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/trap.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 0,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "web_trap",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/web_trap.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 32,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "surprise_trap",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/surprise_trap.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 64,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "terror_trap",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/terror_trap.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 96,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "rock",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/rock.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 128,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "iron_rock",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/iron_rock.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 160,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "ada_ore",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/ada_ore.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 192,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "adoxium_rock",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/adoxium_rock.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 224,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "infernite_rock",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/infernite_rock.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 256,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "wood_plank",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/wood_plank.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 288,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "painting_n",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/painting_n.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 320,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "painting_e",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/painting_e.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 352,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "painting_s",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/painting_s.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 384,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "painting_w",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/painting_w.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 416,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "canvas_n",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/canvas_n.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 448,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "canvas_e",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/canvas_e.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 480,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "canvas_s",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/canvas_s.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 0,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "canvas_w",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/canvas_w.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 32,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "prison",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/prison.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 64,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "prison_bars",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/prison_bars.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 96,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "prison_door_ew",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/prison_door_ew.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 128,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "prison_door_ns",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/prison_door_ns.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 160,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "magic_field",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/magic_field.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 192,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "fence",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/fence.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 224,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "torch",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/torch.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 256,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "candelabrum_ns",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/candelabrum_ns.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 288,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "candelabrum_w",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/candelabrum_w.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 320,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "candelabrum_e",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/candelabrum_e.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 352,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "sokoban_hole",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/sokoban_hole.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 384,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "cauldron",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/cauldron.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 416,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "cauldron_empty",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/cauldron_empty.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 448,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "enchanted_cauldron",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/enchanted_cauldron.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 480,
+      "y": 96,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "mortar_and_pestle",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/mortar_and_pestle.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 0,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "cauldron_tar",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/cauldron_tar.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 32,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "robe",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/robe.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 64,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "leather_gloves",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/leather_gloves.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 96,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "iron_gloves",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/iron_gloves.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 128,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "ada_gloves",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/ada_gloves.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 160,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "blue_gloves",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/blue_gloves.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 192,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "red_gloves",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/red_gloves.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 224,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "leather_armor",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/leather_armor.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 256,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "leather_helm",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/leather_helm.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 288,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "blue_helm",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/blue_helm.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 320,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "chain_armor",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/chain_armor.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 352,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "ada_armor",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/ada_armor.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 384,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "iron_helm",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/iron_helm.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 416,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "cyclops_helm",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/cyclops_helm.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 448,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "ada_helm",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/ada_helm.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 480,
+      "y": 128,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "cornuthaum1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/cornuthaum1.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 0,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "cornuthaum2",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/cornuthaum2.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 32,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "cornuthaum3",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/cornuthaum3.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 64,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "leather_boots",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/leather_boots.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 96,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "iron_boots",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/iron_boots.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 128,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "ada_boots",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/ada_boots.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 160,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "blue_boots",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/blue_boots.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 192,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "green_boots",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/green_boots.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 224,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "wooden_shield",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/wooden_shield.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 256,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "fetch_icon",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/fetch_icon.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 288,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "pit",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/pit.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 320,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "creature_highlight",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/creature_highlight.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 352,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "square_highlight",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/square_highlight.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 384,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "flanked_highlight",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/flanked_highlight.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 416,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "round_shadow",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/round_shadow.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 448,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "campaign_defeated",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/campaign_defeated.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 480,
+      "y": 160,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "special_blbn",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/special_blbn.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 0,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "special_blbw",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/special_blbw.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 32,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "special_blgn",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/special_blgn.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 64,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "special_blgw",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/special_blgw.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 96,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "special_bmbn",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/special_bmbn.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 128,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "special_bmbw",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/special_bmbw.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 160,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "special_bmgn",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/special_bmgn.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 192,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "special_bmgw",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/special_bmgw.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 224,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "special_hlgn",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/special_hlgn.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 256,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "special_hlbn",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/special_hlbn.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 288,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "special_hlbw",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/special_hlbw.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 320,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "special_hlgw",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/special_hlgw.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 352,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "special_hmbn",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/special_hmbn.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 384,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "special_hmbw",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/special_hmbw.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 416,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "special_hmgn",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/special_hmgn.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 448,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "special_hmgw",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/special_hmgw.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 480,
+      "y": 192,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "halloween_kid1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/halloween_kid1.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 0,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "halloween_kid2",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/halloween_kid2.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 32,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "halloween_kid3",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/halloween_kid3.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 64,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "halloween_kid4",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/halloween_kid4.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 96,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "halloween_costume",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/halloween_costume.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 128,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "bag_of_candy",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/bag_of_candy.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 160,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "horn_attack",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/horn_attack.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 192,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "beak_attack",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/beak_attack.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 224,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "touch_attack",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/touch_attack.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 256,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "bite_attack",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/bite_attack.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 288,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "claws_attack",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/claws_attack.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 320,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "leg_attack",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/leg_attack.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 352,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "fist_attack",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/fist_attack.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 384,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "item_aura",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/item_aura.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 416,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "remains_table",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/remains_table.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 448,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "remains_table_empty",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/remains_table_empty.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 480,
+      "y": 224,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "prophet_remains",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/prophet_remains.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 0,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "storage_equipment",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/storage_equipment.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 32,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "storage_resources",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/storage_resources.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 64,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "quarters",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/quarters.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 96,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "standing_torch",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/standing_torch.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 128,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "decid_tree",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/decid_tree.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 160,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "special_tree",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/special_tree.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 192,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "canif_tree",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/canif_tree.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 224,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "tree_snow",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/tree_snow.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 256,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "tree_gum",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/tree_gum.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 288,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "palm_tree",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/palm_tree.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 320,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "swamptree",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/swamptree.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 352,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "giant_mushroom",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/giant_mushroom.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 384,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "cactus1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/cactus1.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 416,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "burnt_tree",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/burnt_tree.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 448,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "barricade",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/barricade.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 480,
+      "y": 256,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "mushroom1",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/mushroom1.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 0,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "mushroom2",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/mushroom2.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 32,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "mushroom3",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/mushroom3.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 64,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "mushroom4",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/mushroom4.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 96,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "mushroom5",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/mushroom5.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 128,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "mushroom6",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/mushroom6.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 160,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "mushroom7",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/mushroom7.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 192,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "fountain",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/fountain.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 224,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "chest",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/chest.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 256,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "opened_chest",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/opened_chest.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 288,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "boulder",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/boulder.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 320,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "portal",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/portal.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 352,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "inactive_portal",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/inactive_portal.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 384,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "bed1",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/bed1.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 416,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "bed2",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/bed2.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 448,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "bed3",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/bed3.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 480,
+      "y": 288,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "altar",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/altar.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 0,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "bush",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/bush.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 32,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "swampplant",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/swampplant.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 64,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "well",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/well.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 96,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "minion_statue",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/minion_statue.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 128,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "stone_minion_statue",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/stone_minion_statue.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 160,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "saint_statue",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/saint_statue.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 192,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "stone_saint_statue",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/stone_saint_statue.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 224,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "throne",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/throne.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 256,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "throne_human",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/throne_human.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 288,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "altar_des",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/altar_des.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 320,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "torture_table",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/torture_table.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 352,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "morgue_table",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/morgue_table.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 384,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "morgue_instrument_table",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/morgue_instrument_table.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 416,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "phylactery",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/phylactery.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 448,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "phylactery_active",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/phylactery_active.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 480,
+      "y": 320,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "impaled_head",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/impaled_head.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 0,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "whipping_post",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/whipping_post.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 32,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "gallows",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/gallows.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 64,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "notice_board",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/notice_board.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 96,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "corpse_display1",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/corpse_display1.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 128,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "corpse_display2",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/corpse_display2.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 160,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "training_wood",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/training_wood.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 192,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "training_iron",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/training_iron.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 224,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "training_ada",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/training_ada.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 256,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "archery_range",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/archery_range.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 288,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "bookcase_wood",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/bookcase_wood.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 320,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "bookcase_iron",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/bookcase_iron.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 352,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "bookcase_gold",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/bookcase_gold.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 384,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "rostrum_wood",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/rostrum_wood.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 416,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "rostrum_iron",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/rostrum_iron.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 448,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "rostrum_gold",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/rostrum_gold.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 480,
+      "y": 352,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "pew_wood",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/pew_wood.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 0,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "pew_iron",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/pew_iron.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 32,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "pew_gold",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/pew_gold.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 64,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "confessional",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/confessional.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 96,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "luxurious_confessional",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/luxurious_confessional.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 128,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "prayer_bench_wood",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/prayer_bench_wood.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 160,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "prayer_bench_iron",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/prayer_bench_iron.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 192,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "prayer_bench_gold",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/prayer_bench_gold.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 224,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "scriptorium",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/scriptorium.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 256,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "scriptorium_holy_token",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/scriptorium_holy_token.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 288,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "demon_shrine",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/demon_shrine.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 320,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "angel_shrine",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/angel_shrine.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 352,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "beast_cage",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/beast_cage.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 384,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "forge",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/forge.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 416,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "lava_forge",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/lava_forge.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 448,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "forge_quenching_bucket",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/forge_quenching_bucket.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 480,
+      "y": 384,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "workshop",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/workshop.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 0,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "enchanted_workshop",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/enchanted_workshop.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 32,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "workshop_tool_stand",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/workshop_tool_stand.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 64,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "jeweller",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/jeweller.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 96,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "lava_jeweller",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/lava_jeweller.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 128,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "jeweller_polishing_wheel",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/jeweller_polishing_wheel.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 160,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dining_table",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/dining_table.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 192,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "haypile",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/haypile.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 224,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "poetry_table",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/poetry_table.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 256,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "distillery",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/distillery.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 288,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "furnace",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/furnace.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 320,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "grave",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/grave.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 352,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "automaton_engine",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/automaton_engine.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 384,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "guard_post",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/guard_post.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 416,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "eyeball",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/eyeball.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 448,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "wood_door_ew",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/wood_door_ew.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 480,
+      "y": 416,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "wood_door_ns",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/wood_door_ns.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 0,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "wood_gate_w",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/wood_gate_w.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 32,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "wood_gate_e",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/wood_gate_e.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 64,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "wood_gate_n",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/wood_gate_n.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 96,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "wood_gate_s",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/wood_gate_s.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 128,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "iron_gate_w",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/iron_gate_w.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 160,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "iron_gate_e",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/iron_gate_e.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 192,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "iron_gate_n",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/iron_gate_n.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 224,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "iron_gate_s",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/iron_gate_s.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 256,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "ada_gate_w",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/ada_gate_w.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 288,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "ada_gate_e",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/ada_gate_e.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 320,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "ada_gate_n",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/ada_gate_n.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 352,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "ada_gate_s",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/ada_gate_s.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 384,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "iron_door_ew",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/iron_door_ew.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 416,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "iron_door_ns",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/iron_door_ns.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 448,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "ada_door_ew",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/ada_door_ew.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 480,
+      "y": 448,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "ada_door_ns",
+      "categoria": "estruturas",
+      "arquivo": "sprites_32px/ada_door_ns.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 0,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "wood_wall",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/wood_wall.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 32,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "wood_pillar",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/wood_pillar.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 64,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "castle_pillar",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/castle_pillar.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 96,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "castle_wall",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/castle_wall.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 128,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "archer_wall",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/archer_wall.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 160,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "mud_wall",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/mud_wall.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 192,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "snow_wall",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/snow_wall.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 224,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "ruin_wall",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/ruin_wall.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 256,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "road",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/road.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 288,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "sand",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/sand.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 320,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "red_sand",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/red_sand.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 352,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "mud",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/mud.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 384,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "snow",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/snow.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 416,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "ice",
+      "categoria": "efeitos_ui",
+      "arquivo": "sprites_32px/ice.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 448,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "grass",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/grass.png",
+      "atlas": "atlas/atlas_03.png",
+      "x": 480,
+      "y": 480,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "swampgrass",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/swampgrass.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "hill",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/hill.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "water",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/water.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 64,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "enchanted_water",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/enchanted_water.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 96,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "tar",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/tar.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 128,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "magma",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/magma.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 160,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "fog_of_war",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/fog_of_war.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 192,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "mountain",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/mountain.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 224,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "mountain_sand",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/mountain_sand.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 256,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "mountain_skulls",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/mountain_skulls.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 288,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "wall_skulls",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/wall_skulls.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 320,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "red_sandstone",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/red_sandstone.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 352,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "glacier",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/glacier.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 384,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "mountain2",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/mountain2.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 416,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "hell_mountain",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/hell_mountain.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 448,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dungeon_wall",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/dungeon_wall.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 480,
+      "y": 0,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dungeon_wall2",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/dungeon_wall2.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 0,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "necro_wall",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/necro_wall.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 32,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "necro_wall2",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/necro_wall2.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 64,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dwarf_wall",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/dwarf_wall.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 96,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "dwarf_wall2",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/dwarf_wall2.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 128,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "sandstone_wall",
+      "categoria": "terrenos",
+      "arquivo": "sprites_32px/sandstone_wall.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 160,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "gold_ore",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/gold_ore.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 192,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "hell_gold_ore",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/hell_gold_ore.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 224,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "gold",
+      "categoria": "itens",
+      "arquivo": "sprites_32px/gold.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 256,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "iron_ore",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/iron_ore.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 288,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "stone",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/stone.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 320,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "hell_stone",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/hell_stone.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 352,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "adamantium_ore",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/adamantium_ore.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 384,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "hell_adamantium_ore",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/hell_adamantium_ore.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 416,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "adoxium_ore",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/adoxium_ore.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 448,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "infernite_ore",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/infernite_ore.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 480,
+      "y": 32,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "orc",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/orc.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 0,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "orc_captain",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/orc_captain.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 32,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "orc_shaman",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/orc_shaman.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 64,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    },
+    {
+      "id": "ogre",
+      "categoria": "criaturas",
+      "arquivo": "sprites_32px/ogre.png",
+      "atlas": "atlas/atlas_04.png",
+      "x": 96,
+      "y": 64,
+      "w": 32,
+      "h": 32
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+name: Windows x64 - Build PT-BR
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore: ['**/*.md', 'art_pipeline/**']
+permissions:
+  contents: read
+jobs:
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 120
+    defaults:
+      run:
+        shell: msys2 {0}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Instalar MSYS2 e dependencias
+        uses: msys2/setup-msys2@v2
+        with:
+          msystem: MINGW64
+          update: true
+          install: >-
+            git make bash pkgconf
+            mingw-w64-x86_64-gcc
+            mingw-w64-x86_64-pkgconf
+            mingw-w64-x86_64-SDL2
+            mingw-w64-x86_64-SDL2_image
+            mingw-w64-x86_64-curl
+            mingw-w64-x86_64-openal
+            mingw-w64-x86_64-libvorbis
+            mingw-w64-x86_64-libtheora
+            mingw-w64-x86_64-zlib
+            mingw-w64-x86_64-libjpeg-turbo
+            mingw-w64-x86_64-lld
+      - name: Compilar (sem recursos comerciais)
+        run: |
+          make -f Makefile-win AMD64=true RELEASE=true OPT=true -j2
+      - name: Empacotar recursos livres
+        run: |
+          mkdir -p dist/keeperrl-ptbr
+          cp keeper.exe dist/keeperrl-ptbr/
+          cp -r data_free dist/keeperrl-ptbr/
+          cp -r data dist/keeperrl-ptbr/
+          cp COPYING.txt COPYING-MEDIA.txt LICENSE dist/keeperrl-ptbr/
+          cp /mingw64/bin/SDL2.dll /mingw64/bin/SDL2_image.dll dist/keeperrl-ptbr/ || true
+      - name: Artefato para download
+        uses: actions/upload-artifact@v4
+        with:
+          name: keeperrl-ptbr-windows-x64-EXPERIMENTAL
+          path: dist/keeperrl-ptbr/
+          if-no-files-found: error

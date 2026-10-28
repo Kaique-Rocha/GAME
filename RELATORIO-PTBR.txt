@@ -1,0 +1,7 @@
+Entradas na base inglês: 4113
+Entradas no PT-BR: 4114
+Chaves faltantes: 0
+Placeholders divergentes: 0
+Base: 95d2be4e97db2243210a71918e36a533ad94dcd1 (ZIP recebido)
+Compilação Windows: NÃO executada
+Teste em execução: NÃO executado

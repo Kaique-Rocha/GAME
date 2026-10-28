@@ -1,0 +1,17 @@
+KEEPERRL PT-BR — PROJETO REVISADO (NÃO É UM JOGO VALIDADO)
+
+Inclui código C++, 804 sprites PNG originais de 32x32, atlas, traduções e pipeline GitHub Actions.
+Foram aplicados retoques de contorno/contraste em sprites, mantendo IDs e resolução.
+Arquivos de mídia comerciais do KeeperRL NÃO incluídos.
+
+VERIFICAÇÕES AUTOMÁTICAS:
+- 804 PNGs correspondentes aos IDs declarados no manifesto.
+- Chaves de português na mesma ordem do catálogo inglês.
+- Marcadores {n} de mensagens preservados.
+- ZIP com teste de integridade.
+
+NÃO VERIFICADO: compilação de Windows, carregamento de todas as texturas, funcionamento do modo offline, traduções existentes fora do catálogo, e jogabilidade.
+Não é possível garantir ausência de bugs. Para testar, execute o workflow .github/workflows/build-windows.yml em um repositório GitHub.
+Se compilado e sem dependências externas de serviço, o jogo pode funcionar localmente, mas será necessário testar o fluxo offline.
+
+Não misture com o pacote do KeeperRL de 2019.
