@@ -42,6 +42,8 @@ jobs:
           cp keeper.exe dist/keeperrl-ptbr/
           cp -r data_free dist/keeperrl-ptbr/
           cp -r data_contrib dist/keeperrl-ptbr/
+          mkdir -p dist/keeperrl-ptbr/art_pipeline
+          cp -r art_pipeline/atlas art_pipeline/manifesto.json art_pipeline/mapa_sprites.csv dist/keeperrl-ptbr/art_pipeline/
           cp appconfig.txt diagnostico-keeper.bat dist/keeperrl-ptbr/
           # A compilacao offline nao usa Steamworks.
           sed -i 's/"steamworks"     "1"/"steamworks"     "0"/' dist/keeperrl-ptbr/appconfig.txt
