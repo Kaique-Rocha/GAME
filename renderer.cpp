@@ -824,9 +824,13 @@ void Renderer::drawAsciiBackground(ViewId id, Rectangle bounds) {
 }
 
 void Renderer::loadAnimations() {
-  if (animationDirectory) {
-    for (auto id : ENUM_ALL(AnimationId))
-      animations[id] = AnimationInfo { Texture(animationDirectory->file(getFileName(id))), getNumFrames(id)};
+  if (animationDirectory && animationDirectory->exists()) {
+    for (auto id : ENUM_ALL(AnimationId)) {
+      auto file = animationDirectory->file(getFileName(id));
+      // Animacoes ausentes sao ignoradas no pacote de arte independente.
+      if (file.exists())
+        animations[id] = AnimationInfo { Texture(file), getNumFrames(id)};
+    }
   }
 }
 
