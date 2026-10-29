@@ -81,6 +81,13 @@ jobs:
           bash collect-dlls.sh
           echo "Bibliotecas empacotadas:"
           ls -1 dist/keeperrl-ptbr/*.dll
+      - name: Integrar sprites nos formatos originais do motor
+        shell: pwsh
+        run: |
+          python -m pip install --disable-pip-version-check Pillow
+          python integrar_sprites.py
+          $count = (Get-ChildItem "dist/keeperrl-ptbr/data/orig32" -Filter *.png).Count
+          if ($count -ne 804) { throw "Esperados 804 sprites, encontrados $count" }
       - name: Testar inicializacao do jogo no Windows
         shell: pwsh
         run: |
