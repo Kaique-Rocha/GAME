@@ -41,7 +41,6 @@ jobs:
           mkdir -p dist/keeperrl-ptbr
           cp keeper.exe dist/keeperrl-ptbr/
           cp -r data_free dist/keeperrl-ptbr/
-          cp -r data dist/keeperrl-ptbr/
           cp COPYING.txt COPYING-MEDIA.txt LICENSE dist/keeperrl-ptbr/
           cp /mingw64/bin/SDL2.dll /mingw64/bin/SDL2_image.dll dist/keeperrl-ptbr/ || true
       - name: Artefato para download
