@@ -54,6 +54,8 @@ TOROOT = ./../
 IPATH = -I. -I./extern -Iextern/steamworks/public
 
 CFLAGS += $(IPATH)
+# O jogo define sua propria funcao main; impede o SDL2 de renomea-la para SDL_main.
+CFLAGS += -DSDL_MAIN_HANDLED
 
 ifdef STEAMWORKS
 SRCS = $(shell ls -t *.cpp)
