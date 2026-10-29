@@ -356,7 +356,7 @@ static int keeperMain(po::parser& commandLineFlags) {
     dpiAwareness();
   Random.init(int(time(nullptr)));
   auto installId = getInstallId(userPath.file("installId.txt"), Random);
-  if (steamInput->isRunningOnDeck())
+  if (steamInput && steamInput->isRunningOnDeck())
     installId += "_deck";
   AudioDevice audioDevice;
   optional<string> audioError = audioDevice.initialize();
