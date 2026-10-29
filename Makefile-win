@@ -110,6 +110,7 @@ PCHINC = -include stdafx.h
 endif
 
 $(OBJDIR)/%.o: %.cpp ${PCH}
+	@mkdir -p "$(@D)"
 	$(GCC) -MMD $(CFLAGS) $(PCHINC) -c $< -o $@
 
 $(NAME): $(OBJS)
