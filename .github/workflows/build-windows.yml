@@ -41,6 +41,7 @@ jobs:
           mkdir -p dist/keeperrl-ptbr
           cp keeper.exe dist/keeperrl-ptbr/
           cp -r data_free dist/keeperrl-ptbr/
+          cp appconfig.txt dist/keeperrl-ptbr/
           cp COPYING.txt COPYING-MEDIA.txt LICENSE dist/keeperrl-ptbr/
           # Copia recursivamente dependencias DLL do executavel e das DLLs ja encontradas.
           # Usa objdump do toolchain MinGW e procura somente bibliotecas da instalacao MSYS2.
@@ -86,6 +87,7 @@ jobs:
           $p = Start-Process -FilePath $exe -WorkingDirectory $folder -RedirectStandardOutput $stdout -RedirectStandardError $stderr -PassThru
           if ($p.WaitForExit(15000)) {
             Write-Host "JOGO ENCERROU em menos de 15 segundos. Codigo: $($p.ExitCode)"
+            $earlyExit = $true
           } else {
             Write-Host "Processo permaneceu ativo por 15 segundos (nao garante interface funcional)."
             Stop-Process -Id $p.Id -Force -ErrorAction SilentlyContinue
@@ -94,6 +96,7 @@ jobs:
           if (Test-Path $stdout) { Get-Content $stdout -Tail 100 }
           Write-Host "=== STDERR ==="
           if (Test-Path $stderr) { Get-Content $stderr -Tail 100 }
+          if ($earlyExit) { throw "Falha no teste: keeper.exe encerrou prematuramente." }
       - name: Anexar logs do teste
         if: always()
         uses: actions/upload-artifact@v4
