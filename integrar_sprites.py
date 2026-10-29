@@ -30,3 +30,19 @@ with (source / "mapa_sprites.csv").open(encoding="utf-8-sig", newline="") as fil
 print(f"Sprites integrados no carregador orig32: {total}")
 if total != 804:
     raise RuntimeError(f"Esperados 804 sprites, encontrados {total}")
+
+# Animacoes originais basicas (spritesheets horizontais) utilizadas pelo motor.
+from PIL import ImageDraw
+animations = root / "dist" / "keeperrl-ptbr" / "data" / "images" / "animations"
+animations.mkdir(parents=True, exist_ok=True)
+for name, frames, color in (("death", 8, (198, 65, 88, 220)), ("attack", 3, (255, 196, 95, 225))):
+    sheet = Image.new("RGBA", (32 * frames, 32), (0, 0, 0, 0))
+    draw = ImageDraw.Draw(sheet)
+    for frame in range(frames):
+        center = frame * 32 + 16
+        radius = max(2, 3 + (frame * 10 // frames))
+        opacity = max(35, color[3] - frame * 20)
+        draw.ellipse((center - radius, 16 - radius, center + radius, 16 + radius), outline=(*color[:3], opacity), width=2)
+        draw.line((center - radius, 16, center + radius, 16), fill=(*color[:3], opacity), width=2)
+    sheet.save(animations / (name + ".png"))
+print("Animacoes originais: attack.png (3 quadros), death.png (8 quadros)")
