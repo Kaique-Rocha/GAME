@@ -42,7 +42,39 @@ jobs:
           cp keeper.exe dist/keeperrl-ptbr/
           cp -r data_free dist/keeperrl-ptbr/
           cp COPYING.txt COPYING-MEDIA.txt LICENSE dist/keeperrl-ptbr/
-          cp /mingw64/bin/SDL2.dll /mingw64/bin/SDL2_image.dll dist/keeperrl-ptbr/ || true
+          # Copia recursivamente dependencias DLL do executavel e das DLLs ja encontradas.
+          # Usa objdump do toolchain MinGW e procura somente bibliotecas da instalacao MSYS2.
+          cat > collect-dlls.sh <<'EOF'
+          #!/usr/bin/env bash
+          set -euo pipefail
+          dest="dist/keeperrl-ptbr"
+          declare -A seen
+          queue=("$dest/keeper.exe")
+          while (("${#queue[@]}" > 0)); do
+            binary="${queue[0]}"
+            queue=("${queue[@]:1}")
+            while IFS= read -r dll; do
+              [[ -z "$dll" ]] && continue
+              key="${dll,,}"
+              [[ -n "${seen[$key]:-}" ]] && continue
+              seen[$key]=1
+              src=""
+              for dir in /mingw64/bin /usr/bin; do
+                if [[ -f "$dir/$dll" ]]; then
+                  src="$dir/$dll"
+                  break
+                fi
+              done
+              [[ -z "$src" ]] && continue
+              cp "$src" "$dest/"
+              queue+=("$dest/$dll")
+              echo "Incluida DLL: $dll"
+            done < <(objdump -p "$binary" | awk '/DLL Name:/ {print $3}')
+          done
+          EOF
+          bash collect-dlls.sh
+          echo "Bibliotecas empacotadas:"
+          ls -1 dist/keeperrl-ptbr/*.dll
       - name: Artefato para download
         uses: actions/upload-artifact@v4
         with:
