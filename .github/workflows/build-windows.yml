@@ -42,7 +42,7 @@ jobs:
           cp keeper.exe dist/keeperrl-ptbr/
           cp -r data_free dist/keeperrl-ptbr/
           cp -r data_contrib dist/keeperrl-ptbr/
-          cp appconfig.txt dist/keeperrl-ptbr/
+          cp appconfig.txt diagnostico-keeper.bat dist/keeperrl-ptbr/
           # A compilacao offline nao usa Steamworks.
           sed -i 's/"steamworks"     "1"/"steamworks"     "0"/' dist/keeperrl-ptbr/appconfig.txt
           cp COPYING.txt COPYING-MEDIA.txt LICENSE dist/keeperrl-ptbr/
@@ -87,7 +87,7 @@ jobs:
           $stdout = Join-Path $folder "teste-stdout.txt"
           $stderr = Join-Path $folder "teste-stderr.txt"
           Write-Host "Testando inicializacao em: $folder"
-          $p = Start-Process -FilePath $exe -WorkingDirectory $folder -RedirectStandardOutput $stdout -RedirectStandardError $stderr -PassThru
+          $p = Start-Process -FilePath $exe -ArgumentList "--stderr" -WorkingDirectory $folder -RedirectStandardOutput $stdout -RedirectStandardError $stderr -PassThru
           if ($p.WaitForExit(15000)) {
             Write-Host "JOGO ENCERROU em menos de 15 segundos. Codigo: $($p.ExitCode)"
             $earlyExit = $true
