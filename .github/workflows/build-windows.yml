@@ -75,6 +75,34 @@ jobs:
           bash collect-dlls.sh
           echo "Bibliotecas empacotadas:"
           ls -1 dist/keeperrl-ptbr/*.dll
+      - name: Testar inicializacao do jogo no Windows
+        shell: pwsh
+        run: |
+          $folder = Join-Path $env:GITHUB_WORKSPACE "dist/keeperrl-ptbr"
+          $exe = Join-Path $folder "keeper.exe"
+          $stdout = Join-Path $folder "teste-stdout.txt"
+          $stderr = Join-Path $folder "teste-stderr.txt"
+          Write-Host "Testando inicializacao em: $folder"
+          $p = Start-Process -FilePath $exe -WorkingDirectory $folder -RedirectStandardOutput $stdout -RedirectStandardError $stderr -PassThru
+          if ($p.WaitForExit(15000)) {
+            Write-Host "JOGO ENCERROU em menos de 15 segundos. Codigo: $($p.ExitCode)"
+          } else {
+            Write-Host "Processo permaneceu ativo por 15 segundos (nao garante interface funcional)."
+            Stop-Process -Id $p.Id -Force -ErrorAction SilentlyContinue
+          }
+          Write-Host "=== STDOUT ==="
+          if (Test-Path $stdout) { Get-Content $stdout -Tail 100 }
+          Write-Host "=== STDERR ==="
+          if (Test-Path $stderr) { Get-Content $stderr -Tail 100 }
+      - name: Anexar logs do teste
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: keeperrl-testes-inicializacao
+          path: |
+            dist/keeperrl-ptbr/teste-stdout.txt
+            dist/keeperrl-ptbr/teste-stderr.txt
+          if-no-files-found: ignore
       - name: Artefato para download
         uses: actions/upload-artifact@v4
         with:
