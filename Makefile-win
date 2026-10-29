@@ -58,7 +58,7 @@ CFLAGS += $(IPATH)
 ifdef STEAMWORKS
 SRCS = $(shell ls -t *.cpp)
 else
-SRCS = $(shell ls -t *.cpp | grep -v steam_.*.cpp)
+SRCS = $(shell ls -t *.cpp | grep -v '^steam_.*[.]cpp$')
 endif
 
 ifdef UNITY
