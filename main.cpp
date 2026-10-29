@@ -175,7 +175,7 @@ void onException() {
 
 int main(int argc, char* argv[]) {
   // SDL2: inicializacao manual ao usar main nativo, sem SDL2main.
-  SDL_SetMainReady();
+  SDL::SDL_SetMainReady();
   po::parser flags = getCommandLineFlags();
   if (!flags.parseArgs(argc, argv))
     return -1;
