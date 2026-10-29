@@ -41,7 +41,10 @@ jobs:
           mkdir -p dist/keeperrl-ptbr
           cp keeper.exe dist/keeperrl-ptbr/
           cp -r data_free dist/keeperrl-ptbr/
+          cp -r data_contrib dist/keeperrl-ptbr/
           cp appconfig.txt dist/keeperrl-ptbr/
+          # A compilacao offline nao usa Steamworks.
+          sed -i 's/"steamworks"     "1"/"steamworks"     "0"/' dist/keeperrl-ptbr/appconfig.txt
           cp COPYING.txt COPYING-MEDIA.txt LICENSE dist/keeperrl-ptbr/
           # Copia recursivamente dependencias DLL do executavel e das DLLs ja encontradas.
           # Usa objdump do toolchain MinGW e procura somente bibliotecas da instalacao MSYS2.
