@@ -58,9 +58,9 @@ CFLAGS += $(IPATH)
 CFLAGS += -DSDL_MAIN_HANDLED
 
 ifdef STEAMWORKS
-SRCS = $(shell ls -t *.cpp)
+SRCS = $(wildcard *.cpp)
 else
-SRCS = $(shell ls -t *.cpp | grep -v '^steam_.*[.]cpp$')
+SRCS = $(filter-out steam_%.cpp,$(wildcard *.cpp))
 endif
 
 ifdef UNITY
@@ -68,7 +68,7 @@ $(shell rm unity.cpp; for I in *.cpp; do echo \#include \"$$I\" | grep -v stack_
 SRCS = unity.cpp file_sharing.cpp fontstash.cpp stack_printer.cpp theoraplay.cpp
 endif
 
-SRCS += $(shell ls -t extern/*.cpp)
+SRCS += $(wildcard extern/*.cpp)
 
 ifdef AMD64
 RES_FILE=keeper.res
